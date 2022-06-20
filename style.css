@@ -53,11 +53,11 @@ header img{
   margin-top: 36px;
   align-self: center;
 }
-h1{
-  font-weight: 700;
-  color: var(--just-white);
-  line-height: 26px;
+.header__tittle-container h1{
+  font-weight: bold;
+  line-height: 2.6rem;
   font-size: 2.4rem;
+  color: var(--just-white);
 }
 h1+p{
   margin-top: 24px;
