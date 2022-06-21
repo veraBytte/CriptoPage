@@ -69,3 +69,20 @@ main{
   line-height: 1.6rem;
   color: #757575;
 }
+/*Tabla*/
+.main__tables-container{  
+  margin-bottom: 64px;
+  min-width: 235px;
+}
+.main-currency__table{
+  font-family: var(--second-font);
+}
+.currency-table--container{
+  width: 197px;
+  margin: 0 auto;
+}
+td{
+  border: solid black;
+  width: 101px;
+  height: 39px;
+}
