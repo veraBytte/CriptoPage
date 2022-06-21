@@ -28,3 +28,33 @@ html{
   font-size: 62.5%;
   font-family: 'DM Sans','sans-serif';
 }
+main{
+  width: 100%;
+  min-width: 288px;
+  height: auto;
+  background-color: var(--off-white);
+}
+.main__exchange-container{
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+} 
+.main__exchange-tittle{
+  width: 85%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.main__exchange-tittle h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+.main__exchange-tittle p{
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
