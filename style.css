@@ -5,37 +5,37 @@
 4.Estilos visuales
 5.Otros
 */
-:root{
+:root {
   /*Colores*/
-  --color-primary:#F7931A;  
-  --color-primary-soft: #FFE9D5;
+  --color-primary: #f7931a;
+  --color-primary-soft: #ffe9d5;
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
-  --warm-black: #201E1C;
+  --warm-black: #201e1c;
   --black: #000000;
   --grey: #bababa;
-  --off-white: #FAf8f7;
+  --off-white: #faf8f7;
   --just-white: #fff;
   /*Fuente*/
-  --second-font: 'Inter', sans-serif;
+  --second-font: "Inter", sans-serif;
 }
-*{
+* {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;    
+  padding: 0;
 }
-html{
+html {
   font-size: 62.5%;
-  font-family: 'DM Sans','sans-serif';
+  font-family: "DM Sans", "sans-serif";
 }
-main{
+main {
   width: 100%;
   min-width: 288px;
   height: auto;
   background-color: var(--off-white);
 }
 
-header{
+header {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -44,15 +44,15 @@ header{
   min-width: 320px;
   height: 295px;
   text-align: center;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
-header img{
+header img {
   width: 151px;
   height: 24px;
   margin-top: 42px;
   align-self: center;
 }
-.header__tittle-container{
+.header__tittle-container {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
@@ -60,20 +60,20 @@ header img{
   margin-top: 36px;
   align-self: center;
 }
-.header__tittle-container h1{
+.header__tittle-container h1 {
   font-weight: bold;
   line-height: 2.6rem;
   font-size: 2.4rem;
   color: var(--just-white);
 }
-h1+p{
+h1 + p {
   margin-top: 24px;
   color: var(--color-primary-soft);
   font-size: 1.4rem;
   line-height: 18px;
   font-weight: 500;
 }
-.header__tittle-container .header__buttom{
+.header__tittle-container .header__buttom {
   position: absolute;
   left: calc(50% - 116px);
   top: 220px;
@@ -84,153 +84,150 @@ h1+p{
   height: 48px;
   background-color: var(--off-white);
   /*Sombra*/
-  box-shadow:0px 4px 8px rgba(89, 73, 30, 0.16) ;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border-radius: 5px;
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--black);
 }
-.header__buttom span{
+.header__buttom span {
   display: inline-block;
   width: 1.3rem;
   height: 8px;
   margin-left: 10px;
-  background-image: url('/assets/icons/down-arrow.svg');
+  background-image: url("/assets/icons/down-arrow.svg");
 }
 
-.main__exchange-container{
+.main__exchange-container {
   width: 100%;
   height: auto;
   padding-top: 80px;
   padding-bottom: 30px;
   text-align: center;
-} 
-.main__exchange-tittle{
+}
+.main__exchange-tittle {
   width: 85%;
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
 }
-.main__exchange-container .backgroundImg{
+.main__exchange-container .backgroundImg {
   width: 200px;
   height: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url('/assets/img/Bitcoin.svg');
+  background-image: url("/assets/img/Bitcoin.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.main__exchange-tittle h2{
+.main__exchange-tittle h2 {
   margin-bottom: 24px;
   font-weight: bold;
   font-size: 2.4rem;
   line-height: 2.6rem;
 }
-.main__exchange-tittle p{
+.main__exchange-tittle p {
   margin-bottom: 42px;
   font-weight: 500;
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
   line-height: 1.6rem;
   color: #757575;
 }
 /*Tabla Monedas*/
-.main-currency__table{
+.main-currency__table {
   width: 70%;
   min-width: 235px;
   max-width: 300px;
-  height: 340px; 
+  height: 340px;
   margin: 0 auto;
   font-family: var(--second-font);
-  
 }
-.main-currency__table .currency-table--tittle{
+.main-currency__table .currency-table--tittle {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
   text-align: left;
-  line-height: 2.3rem;  
+  line-height: 2.3rem;
 }
-.monedas{
+.monedas {
   color: var(--color-primary);
 }
-.currency-table--container{
+.currency-table--container {
   min-width: 230px;
   max-width: 300px;
   height: 180px;
   margin: 0 auto 24px;
-
 }
-.currency-table--container table{
+.currency-table--container table {
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
-.currency-table--container td{
+.currency-table--container td {
   width: 50%;
   height: 25%;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  color: #B5B0AC;
+  color: #b5b0ac;
   background-color: var(--just-white);
 }
-.currency-table--date{
+.currency-table--date {
   min-width: 173px;
   max-width: 300px;
   margin: 0 auto;
   padding: 8px;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
   border-radius: 8px;
 }
-.currency-table--date__monedas{
+.currency-table--date__monedas {
   background-color: var(--color-primary-soft);
 }
 /*Bordes de la tabla*/
-.currency-table--container .table__top-left{
+.currency-table--container .table__top-left {
   border-radius: 8px 0 0 0;
 }
-.currency-table--container .table__top-right{
+.currency-table--container .table__top-right {
   border-radius: 0 8px 0 0;
 }
-.currency-table--container .table__bottom-left{
+.currency-table--container .table__bottom-left {
   border-radius: 0 0 0 8px;
 }
-.currency-table--container .table__bottom-right{
+.currency-table--container .table__bottom-right {
   border-radius: 0 0 8px 0;
 }
 /*Estilos lado derecho de la tabla*/
-.currency-table--container .table__right{
+.currency-table--container .table__right {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 17px;
   color: #757575;
 }
-.down{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    background-image: url('/assets/icons/trending-down.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("/assets/icons/trending-down.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.up{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    background-image: url('/assets/icons/trending-up.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("/assets/icons/trending-up.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*Tabla Comisiones*/
-.comisiones{
+.comisiones {
   color: var(--secondary-blue);
 }
-.currency-table--date__comisiones{
+.currency-table--date__comisiones {
   background-color: var(--soft-blue);
 }
-
