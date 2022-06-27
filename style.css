@@ -98,12 +98,13 @@ h1 + p {
   margin-left: 10px;
   background-image: url("/assets/icons/down-arrow.svg");
 }
-
+main{
+  min-width: 320px;
+}
 .main__exchange-container {
   width: 100%;
   height: auto;
   padding-top: 80px;
-  padding-bottom: 30px;
   text-align: center;
 }
 .main__exchange-tittle {
@@ -230,4 +231,86 @@ h1 + p {
 }
 .currency-table--date__comisiones {
   background-color: var(--soft-blue);
+}
+/*Seccion beneficios*/
+.main-product-detail{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 64px 15px 45px;
+  background: var(--warm-black);
+  color: var(--just-white);
+}
+.product-detail-batata-logo{
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  background-image: url(/assets/icons/batata.svg);
+  left: calc(50% - 20px);
+  top: -10px
+}
+.main-product-content{
+  width: 100%;
+  min-width: 288px;
+  height: auto;  
+  padding: 0 0 32px 0;
+  text-align: center;
+}
+.main-product-content h2{
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.main-product-content p{
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 18px;
+  color: #808080;
+}
+  /*seccion tarjetas*/
+  .product-detail--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background: #282623;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    line-height: 1.8rem;
+  }
+  /*Iconos*/
+  .product-detail--card .icono{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;  
+  }
+  .product-detail--card .icono--clock{
+    background-image: url(/assets/icons/clock.svg);
+  }
+  .product-detail--card .icono--eye{
+    background-image: url(/assets/icons/eye.svg);
+  }
+  .product-detail--card .icono--dollar{
+    background-image: url(/assets/icons/dollar-sign.svg);
+  }
+  .product-detail--card .icono--check{
+    background-image: url(/assets/icons/check-circle.svg);
+  }
+
+.product--card-tittle{
+  font-weight: bold;
+  font-size: 1.8rem;  
+  margin-bottom: 10px;
+}
+.product--card-body{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #808080;
 }
