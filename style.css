@@ -99,6 +99,7 @@ h1 + p {
   margin-left: 10px;
   background-image: url("/assets/icons/down-arrow.svg");
 }
+/*main*/
 .main__exchange-container {
   width: 100%;
   height: auto;
